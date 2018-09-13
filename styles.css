@@ -1,6 +1,6 @@
 p {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 75px;
     margin-right: 150px;
     margin-left: 100px;
 }
@@ -9,34 +9,56 @@ header h1 {
     text-align: center;
 }
 
-figcaption {
-    font-style: italic;
+ol {
+    margin-left: 65px;
 }
+
 div {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
+body,
 main,
 footer {
-    background-color:slateblue
-}
-
-header.intro {
     background-color: lightslategray
 }
 
-.intro {
-    background-color: slateblue
-}
+.shadowed_header {
+    text-shadow:-1px -1px 1px rgba(0,0,0,0.8); 
+  }
 
 #caption {
-    background-color: darkslateblue
+    font-family: cursive;
+    margin-left: 55px;
 }
 
 img {
     width: 50%;
     max-width: 50%;
+    margin-left: 55px;
+    border:1px solid #434445;
+    border-bottom-color:#2F3032;
+    border-top-color:rgb(20, 20, 20);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 100px;
+}
+
+section {
+    margin: 1.5em 0;
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+section:last-child {
+    margin-bottom: 0;
 }

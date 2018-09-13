@@ -2,5 +2,41 @@ p {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 100px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+main,
+footer {
+    background-color:slateblue
+}
+
+header.intro {
+    background-color: lightslategray
+}
+
+.intro {
+    background-color: slateblue
+}
+
+#caption {
+    background-color: darkslateblue
+}
+
+img {
+    width: 50%;
+    max-width 50%;
 }
